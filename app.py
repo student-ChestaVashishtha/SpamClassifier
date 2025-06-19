@@ -5,7 +5,8 @@ from nltk.corpus import stopwords
 from nltk.tokenize import TreebankWordTokenizer
 import nltk
 from nltk.stem.porter import PorterStemmer
-
+nltk.data.path.append("/home/render/.nltk_data")
+nltk.download('stopwords')
 ps = PorterStemmer()
 
 
